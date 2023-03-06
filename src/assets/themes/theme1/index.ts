@@ -6,7 +6,7 @@ import { styles } from "./styles";
 import { textStyles } from "./textStyles";
 
 const config: ThemeConfig = {
-  initialColorMode: "light",
+  initialColorMode: "dark",
   useSystemColorMode: false,
 };
 

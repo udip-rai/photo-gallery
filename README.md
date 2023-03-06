@@ -14,8 +14,11 @@
 - axios
 - redux
 - react-redux
-- redux-dev-tools-extenstion
+- @reduxjs/toolkit
+- redux-dev-tools-extension
+- redux-logger
 - @fontsource/poppins
+- react-paginate
 
 ### Default Commit
 
@@ -28,3 +31,10 @@
   - Frontend part done with CustomTheme
   - Configured routing with react-router-dom
   - Installed necessary yarn packages
+
+### Commit 02
+
+- git commit -m "02 - REST API + Redux setup + Pagination"
+  - Redux part completed
+  - Css with Custom theme styling
+  - Implemented Pagination with React Paginate

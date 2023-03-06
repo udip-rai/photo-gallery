@@ -11,5 +11,11 @@ export const Layout1Css = {
     alignItems: "center",
   },
 
+  ".body": {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+  },
+
   ".footer": {},
 };
