@@ -19,5 +19,15 @@
     // I edited only the lines below, not above
     "baseUrl": "src"
   },
-  "include": ["src"]
+  "include": ["src"],
+
+  // I edited only the lines below, not above
+  "@typescript-eslint/no-restricted-imports": [
+    "warn",
+    {
+      "name": "react-redux",
+      "importNames": ["useSelector", "useDispatch"],
+      "message": "Use typed hooks `useAppDispatch` and `useAppSelector` instead."
+    }
+  ]
 }

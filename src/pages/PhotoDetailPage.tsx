@@ -20,7 +20,7 @@ export const PhotoDetailPage = () => {
       </Center>
 
       <Flex className="table-section">
-        <Image src="https://via.placeholder.com/600/5e12c6" alt="title" />
+        <Image src={filteredPhoto[0]?.thumbnailUrl} alt="title" />
         <PhotoDetailTable {...filteredPhoto[0]} />
       </Flex>
     </Flex>

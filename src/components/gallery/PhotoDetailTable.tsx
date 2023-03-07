@@ -8,14 +8,14 @@ import {
   Td,
   Badge,
 } from "@chakra-ui/react";
-import { SinglePhotoProps } from "schemas/PhotoDetailSchema";
+import { SinglePhotoType } from "schemas/PhotoDetailSchema";
 
-export const PhotoDetailTable = (props: SinglePhotoProps) => {
+export const PhotoDetailTable = (props: SinglePhotoType) => {
   const { albumId, id, title, url, thumbnailUrl } = props;
 
   return (
-    <TableContainer maxW="400px">
-      <Table size="sm" variant="simple">
+    <TableContainer maxW="400px" className="scrollbar1">
+      <Table variant="simple">
         <Thead>
           <Tr>
             <Th colSpan={2}>

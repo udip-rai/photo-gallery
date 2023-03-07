@@ -10,19 +10,22 @@ const gallerySlice = createSlice({
   initialState: {
     photos: [],
     isLoading: false,
+    // filteredPhotos: [],
+    // albumId: null,
   },
   reducers: {},
-  extraReducers: {
-    [getPhotos.pending.toString()]: (state) => {
-      state.isLoading = true;
-    },
-    [getPhotos.fulfilled.toString()]: (state, action) => {
-      state.photos = action.payload;
-      state.isLoading = false;
-    },
-    [getPhotos.rejected.toString()]: (state) => {
-      state.isLoading = false;
-    },
+  extraReducers: (builder) => {
+    builder
+      .addCase(getPhotos.pending, (state) => {
+        state.isLoading = true;
+      })
+      .addCase(getPhotos.fulfilled, (state, action) => {
+        state.photos = action.payload;
+        state.isLoading = false;
+      })
+      .addCase(getPhotos.rejected, (state, action) => {
+        state.isLoading = false;
+      });
   },
 });
 

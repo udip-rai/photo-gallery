@@ -4,7 +4,7 @@ import { mode } from "@chakra-ui/theme-tools";
 export const PhotoDetailCss = (props: StyleFunctionProps) => ({
   flexDirection: "column",
   justifyContent: "center",
-  gap: 5,
+  gap: 10,
 
   ".image-section": {
     justifySelf: "center",
@@ -30,11 +30,13 @@ export const PhotoDetailCss = (props: StyleFunctionProps) => ({
     },
 
     ".table-header-badge": {
-      p: 2,
+      py: 2,
+      px: 4,
       fontSize: "md",
       textTransform: "capitalize",
       bg: mode("#8952e0f0", "maya_blue")(props),
       color: mode("white", "black")(props),
+      borderRadius: "12px",
     },
   },
 });

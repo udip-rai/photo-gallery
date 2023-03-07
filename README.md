@@ -1,9 +1,26 @@
+# Photo Gallery Application with React-Redux
+
 ## Instructions on running the app:
 
--
--
--
--
+Try out the demo here: (Demo of the app)[]
+" "
+
+- Download the github file or clone it into your project
+- Run yarn & then yarn start
+- The user is expected to see the landing page as photo-gallery.
+- Each of the photos in the gallery is clickable with their proper details & back button.
+- The user can search for photos as per their title.
+- Notice that (when searching), if the title is too long inside the popup box-
+  - so I have given a maximum length for them when they are displayed
+
+## Features:
+
+- Easily Customizable Chakra-UI Config
+- Light/Dark Mode
+- Search Functionality
+- Redux State Management
+- Pagination
+- Filter AlbumId (This will be implemented soon..)
 
 ## yarn installations
 
@@ -38,3 +55,11 @@
   - Redux part completed
   - Css with Custom theme styling
   - Implemented Pagination with React Paginate
+
+### Commit 03
+
+- git commit -m "03 - Search + Filter(by albumId) functionalities"
+  - Used different array methods to complete the search & filter part
+  - Added a Custom Outside-Click Ref to hide/show the suggestion on search
+  - Added Search funtionality alongside ref to handle the UI/UX feel
+  - Customized css for the site

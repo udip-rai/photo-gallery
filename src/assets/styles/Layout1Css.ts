@@ -14,7 +14,6 @@ export const Layout1Css = {
   ".body": {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "center",
   },
 
   ".footer": {},

@@ -14,7 +14,7 @@ export const CustomSpinner = () => {
       <Box pos="absolute" margin="0 auto" mb={4}>
         <Image boxSize="80px" src={busy_img} />
       </Box>
-      <Text>Loading</Text>
+      <Text textStyle="header">Loading</Text>
     </Center>
   );
 };
