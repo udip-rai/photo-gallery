@@ -1,15 +1,18 @@
 # Photo Gallery Application with React-Redux
 
-## Instructions on running the app:
+## Instructions on running the app :-
 
-Try out the demo here: (Demo of the app)[]
-" "
+Try out the demo of the app here:
+(Click to view Demo)[https://photo-gallery-udiprai.netlify.app/]
 
 - Download the github file or clone it into your project
 - Run yarn & then yarn start
 - The user is expected to see the landing page as photo-gallery.
 - Each of the photos in the gallery is clickable with their proper details & back button.
 - The user can search for photos as per their title.
+  - He/She first needs to type in the title.
+  - He/She can click on the suggested title in the popop box
+  - He/She needs to press **Enter key** or Click on **Search button**.
 - Notice that (when searching), if the title is too long inside the popup box-
   - so I have given a maximum length for them when they are displayed
 
@@ -39,7 +42,7 @@ Try out the demo here: (Demo of the app)[]
 
 ### Default Commit
 
-- Initialized with Chakra-React-TS App
+- Initialize project using Create React App
 
 ### Commit 01
 
@@ -59,7 +62,13 @@ Try out the demo here: (Demo of the app)[]
 ### Commit 03
 
 - git commit -m "03 - Search + Filter(by albumId) functionalities"
+
   - Used different array methods to complete the search & filter part
   - Added a Custom Outside-Click Ref to hide/show the suggestion on search
   - Added Search funtionality alongside ref to handle the UI/UX feel
   - Customized css for the site
+
+  ### Commit 04
+
+- git commit -m "04 - Deployed with Netlify"
+  - Updated README.md file
